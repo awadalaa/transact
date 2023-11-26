@@ -12,9 +12,9 @@
 [![GitHub followers](https://img.shields.io/github/followers/awadalaa?label=Follow&style=social)](https://github.com/awadalaa)
 [![Twitter Follow](https://img.shields.io/twitter/follow/awadalaa?style=social)](https://twitter.com/intent/follow?screen_name=awadalaa)
 
-This repo is a Tensorflow implementation of [TransAct: Transformer-based Realtime User Action Model for
+This is NOT the official implementation by the authors of this model architecture. You can find the official pytorch [implementation here](https://github.com/pinterest/transformer_user_action). This repo is a **Tensorflow** implementation of [TransAct: Transformer-based Realtime User Action Model for
 Recommendation at Pinterest](https://dl.acm.org/doi/10.1145/3580305.3599918) by Xia, Xue, et al. **TransAct** is the ranking architecture 
-used by Pinterest's Homefeed to personalize and extract users' short-term preferences from their realtime activities. The paper was presented at KDD 2023 in Long Beach, CA.
+used by Pinterest's Homefeed to personalize and extract users' short-term preferences from their realtime activities. The paper was presented at KDD 2023.
 
 ![](https://github.com/awadalaa/transact/blob/main/media/architecture.png)
 
