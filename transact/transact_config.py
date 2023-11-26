@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class TransActConfig:
     """
@@ -17,6 +18,7 @@ class TransActConfig:
     :param nhead: Number of heads in the TransformerEncoderLayer
     :param dim_feedforward: Feed forward dimension of the TransformerEncoderLayer
     """
+
     action_vocab: list = range(0, 20)
     action_emb_dim: int = 32
     item_emb_dim: int = 32
