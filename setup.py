@@ -57,6 +57,7 @@ setup(
             "numpy",
             "black",
             "pytest",
+            "typing-extensions",
         ],
     },
 )

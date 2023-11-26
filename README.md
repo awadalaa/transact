@@ -33,7 +33,7 @@ pip install transact
 To install the package using Docker run the following:
 
 ```sh
-docker pull ghcr.io/awadalaa/transact:0.1.0
+docker pull ghcr.io/awadalaa/transact:release
 ```
 
 ## Developing transact
@@ -109,7 +109,7 @@ cd transact
 
 docker run -it --rm \
     --mount type=bind,source="$(pwd)"/example,target=/usr/src/transact/docker_example \
-    ghcr.io/awadalaa/transact:0.1.0 \
+    ghcr.io/awadalaa/transact:release \
     python docker_example/docker_example.py
 ```
 
