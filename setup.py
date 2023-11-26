@@ -49,9 +49,7 @@ setup(
     url="https://github.com/awadalaa/TransAct",
     author="Alaa Awad",
     author_email="alaa.awad.mail@gmail.com",
-    install_requires=[
-        "tensorflow >= 2.9",
-    ],
+    install_requires=["tensorflow>=2.9", "tf-models-official==2.9"],
     extras_require={
         "dev": [
             "check-manifest",

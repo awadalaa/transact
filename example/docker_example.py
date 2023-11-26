@@ -11,11 +11,21 @@ time_window_ms = 1000 * 60 * 60 * 1  # 1 hr
 latest_n_emb = 10
 
 # Generate random tensors in TensorFlow as input
-action_type_seq = tf.random.uniform(shape=(test_batch_size, full_seq_len), minval=0, maxval=num_actions, dtype=tf.int32)
-item_embedding_seq = tf.random.uniform(shape=(test_batch_size, full_seq_len, item_emb_dim), dtype=tf.float32)
-action_time_seq = tf.random.uniform(shape=(test_batch_size, full_seq_len), minval=0, maxval=num_actions, dtype=tf.int32)
-request_time = tf.random.uniform(shape=(test_batch_size,), minval=500000, maxval=1000000, dtype=tf.int32)
-item_embedding = tf.random.uniform(shape=(test_batch_size, item_emb_dim), dtype=tf.float32)
+action_type_seq = tf.random.uniform(
+    shape=(test_batch_size, full_seq_len), minval=0, maxval=num_actions, dtype=tf.int32
+)
+item_embedding_seq = tf.random.uniform(
+    shape=(test_batch_size, full_seq_len, item_emb_dim), dtype=tf.float32
+)
+action_time_seq = tf.random.uniform(
+    shape=(test_batch_size, full_seq_len), minval=0, maxval=num_actions, dtype=tf.int32
+)
+request_time = tf.random.uniform(
+    shape=(test_batch_size,), minval=500000, maxval=1000000, dtype=tf.int32
+)
+item_embedding = tf.random.uniform(
+    shape=(test_batch_size, item_emb_dim), dtype=tf.float32
+)
 input_features = (
     action_type_seq,
     item_embedding_seq,
