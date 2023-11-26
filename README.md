@@ -4,6 +4,7 @@
 [![Run Tests](https://github.com/awadalaa/transact/actions/workflows/tests.yml/badge.svg)](https://github.com/awadalaa/transact/actions/workflows/tests.yml)
 [![Upload Python Package](https://github.com/awadalaa/transact/actions/workflows/python-publish.yml/badge.svg)](https://github.com/awadalaa/transact/actions/workflows/python-publish.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![GitHub Super-Linter](https://github.com/awadalaa/transact/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 
 ![GitHub License](https://img.shields.io/github/license/awadalaa/transact)
