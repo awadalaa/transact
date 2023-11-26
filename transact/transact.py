@@ -1,4 +1,3 @@
-from typing import Final
 import tensorflow as tf
 import tensorflow_models as tfm
 from transact.transact_config import TransActConfig
@@ -9,7 +8,7 @@ class TensorflowTransAct(tf.keras.Model):
         super().__init__()
         self.transact_config = transact_config
         self.training = training
-        self.action_vocab: Final[list] = self.transact_config.action_vocab
+        self.action_vocab: list = self.transact_config.action_vocab
 
         if self.transact_config.concat_candidate_emb:
             transformer_in_dim = (
