@@ -20,7 +20,9 @@ used by Pinterest's Homefeed to personalize and extract users' short-term prefer
 
 ## Installation
 
-### PyPI
+### PyPI - Not Working Yet
+
+https://pypi.org/ registration is currently disabled. Once admins enable, will add. Until then, skip the docker step.
 
 Run the following to install:
 
@@ -45,7 +47,7 @@ git clone https://github.com/awadalaa/transact.git
 # or clone your own fork
 
 cd transact
-pip install -e .[dev]
+pip install -e .
 ```
 
 To run rank and shape tests run any of the following:
