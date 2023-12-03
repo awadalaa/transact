@@ -22,7 +22,7 @@ used by Pinterest's Homefeed to personalize and extract users' short-term prefer
 
 ### PyPI - Not Working Yet
 
-https://pypi.org/ registration is currently disabled. Once admins enable, will add. Until then, skip the docker step.
+New user registration on PyPI is temporarily suspended due to malicious attacks. Once admins enable, will add. Until then, skip ahead to the docker step.
 
 Run the following to install:
 
