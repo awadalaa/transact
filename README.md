@@ -20,7 +20,7 @@ used by Pinterest's Homefeed to personalize and extract users' short-term prefer
 
 ## Installation
 
-### PyPI - Not Working Yet
+### PyPI
 
 New user registration on PyPI is temporarily suspended due to malicious attacks. Once admins enable, will add. Until then, skip ahead to the docker step.
 
