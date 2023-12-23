@@ -24,7 +24,7 @@ with open(os.path.join(this_directory, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="transact",
+    name="transact-tf",
     version=get_version("transact/version.py"),
     description="An implementation of TransAct: Transformer-based Realtime User Action Model for Recommendation",
     packages=find_packages(),

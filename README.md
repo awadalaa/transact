@@ -1,6 +1,6 @@
 # TransAct [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fawadalaa%2Ftransact)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fawadalaa%2Ftransact)
 
-![PyPI](https://img.shields.io/pypi/v/transact)
+![PyPI](https://img.shields.io/pypi/v/transact-tf)
 [![Run Tests](https://github.com/awadalaa/transact/actions/workflows/tests.yml/badge.svg)](https://github.com/awadalaa/transact/actions/workflows/tests.yml)
 [![Upload Python Package](https://github.com/awadalaa/transact/actions/workflows/python-publish.yml/badge.svg)](https://github.com/awadalaa/transact/actions/workflows/python-publish.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -27,7 +27,7 @@ New user registration on PyPI is temporarily suspended due to malicious attacks.
 Run the following to install:
 
 ```sh
-pip install transact
+pip install transact-tf
 ```
 
 ### Docker
